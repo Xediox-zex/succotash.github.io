@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -9,6 +9,7 @@
     background-size: cover;
     height: 100vh;
     font-family: sans-serif;
+    background-attachment: scroll;
 
 }
 .navbar{
@@ -22,7 +23,7 @@
     font-size: 35px;
     font-family: cursive;
     float: left;
-    padding-top: .6%;
+    padding-top: 0.6%;
     cursor: pointer;
 }
 .menu{
@@ -109,9 +110,10 @@ ul li a:hover{
 }
 .title h1 { 
     cursor: pointer;
-    font-family: cursive;
+    font-family: "Sofia";
     color: rgb(254, 254, 255);
-    font-size: 55px;
+    font-size: 45px;
+    padding: 2px;
     border:  solid 2px;
     border-color: orangered;
     border-bottom-left-radius: 25px;
@@ -144,7 +146,7 @@ ul li a:hover{
 .prg_title{
     text-transform: capitalize;
     text-align: center;
-    font-family: Georgia,;
+    font-family: sans-serif;
     font-weight: bold;
     font-size: large;
     color: rgb(255, 174, 0) ;
@@ -155,11 +157,12 @@ ul li a:hover{
     color: white;
     position: relative;
     left: -200px;
-    top: 300px;
+    top: 285px;
 }
 .content .par{
-    font-family: 'Gill Sans';
+    font-family: "Serif"; /** Will be changed to Audiowide ( google font ) **/
     letter-spacing: 1.2px;
+    font-size: 15px;
     line-height: 25px;
 }
 .content h1{
